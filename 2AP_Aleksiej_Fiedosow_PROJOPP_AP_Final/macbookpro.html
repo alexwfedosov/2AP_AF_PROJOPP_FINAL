@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MacBook Pro</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen;
+        background-color: #000;
+        color: #fff;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px 20px;
+        max-width: 1200px;
+        margin: auto;
+        gap: 40px;
+        align-items: center;
+      }
+      .product-image {
+        flex: 1 1 500px;
+        display: flex;
+        justify-content: center;
+      }
+      .product-image img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 20px;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+      }
+      .product-info {
+        flex: 1 1 500px;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      .price {
+        font-size: 28px;
+        font-weight: 600;
+        color: #fff;
+        margin: 20px 0;
+      }
+      .description {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 40px;
+        color: #ccc;
+      }
+      .reviews {
+        background-color: #111;
+        padding: 40px 20px;
+        border-radius: 20px;
+        max-width: 1000px;
+        margin: 60px auto;
+      }
+      .reviews h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+        color: #fff;
+      }
+      .review {
+        border-bottom: 1px solid #333;
+        padding: 20px 0;
+      }
+      .review:last-child {
+        border-bottom: none;
+      }
+      .reviewer {
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 5px;
+      }
+      .footer {
+        text-align: center;
+        padding: 30px 20px;
+        background-color: #000000;
+        color: #777;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="product-image">
+        <img src="macbook pro.png" alt="MacBook Pro" />
+      </div>
+      <div class="product-info">
+        <h1>MacBook Pro</h1>
+        <div class="price">$2,200</div>
+        <div class="description">
+          The MacBook Pro delivers exceptional performance with the latest M3
+          Pro chip, stunning Liquid Retina XDR display, and all-day battery
+          life. Designed for pros and creators, it's built to handle the most
+          demanding workflows with ease.
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <h2>Customer Reviews</h2>
+      <div class="review">
+        <div class="reviewer">Elena T.</div>
+        <p>
+          This MacBook is a beast! Perfect for video editing, and the display is
+          unreal. Worth every dollar.
+        </p>
+      </div>
+      <div class="review">
+        <div class="reviewer">Chris D.</div>
+        <p>
+          Quiet, powerful, and super sleek. The performance is unmatched for my
+          development work.
+        </p>
+      </div>
+      <div class="review">
+        <div class="reviewer">Monica R.</div>
+        <p>
+          Battery life is fantastic and the build quality is just premium.
+          Highly recommend it.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">&copy; 2025 My Online Store. All rights reserved.</div>
+  </body>
+</html>

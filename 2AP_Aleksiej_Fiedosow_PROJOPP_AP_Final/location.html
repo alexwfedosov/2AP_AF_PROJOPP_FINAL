@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Core - Official Apple Product Reseller</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: #000000;
+        color: #f1f1f1;
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .location-section {
+        display: flex;
+        height: calc(100vh - 80px); /* adjust for menu height */
+      }
+
+      .map-container {
+        flex: 1;
+      }
+
+      .map-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+
+      .info-container {
+        flex: 1;
+        padding: 60px;
+        background-color: #131313;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .info-container h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #ffffff;
+      }
+
+      .info-container p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #ccc;
+      }
+
+      @media (max-width: 768px) {
+        .location-section {
+          flex-direction: column;
+        }
+
+        .map-container,
+        .info-container {
+          height: 50vh;
+          padding: 30px;
+        }
+
+        .info-container h1 {
+          font-size: 28px;
+        }
+
+        .info-container p {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- MENU  -->
+    <section class="menu">
+      <div class="menu-logo">
+        <img class="logo" src="logo.png" alt="logo" />
+      </div>
+      <div class="menu-links">
+        <a href="index.html" class="menuitem">Home</a>
+        <a href="about.html" class="menuitem">About</a>
+        <a href="location.html" class="menuitem">Location</a>
+        <a href="watch-ultra.html" class="menuitem">Product</a>
+      </div>
+      <div class="menu-cart">
+        <img
+          src="Снимок экрана 2024-12-07 155710.png"
+          alt="cart"
+          class="cart-image"
+        />
+      </div>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section class="location-section">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1453.0547662162244!2d21.001721489683657!3d52.22999425310387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd0d1813ee51%3A0xd2fac4e0d9e202b4!2siSpot%20-%20Apple%20Premium%20Reseller!5e0!3m2!1sru!2spl!4v1747414908711!5m2!1sru!2spl"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="info-container">
+        <h1>Visit Us in Warsaw</h1>
+        <p>
+          Our Apple Reseller store is located in central Warsaw. Whether you're
+          looking for the latest products, accessories, or expert advice —
+          you're always welcome.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
