@@ -14,3 +14,7 @@ firmie na przyszły marketing e-mailowy i być może odsprzedać jakiś produkt 
 
 Interakcja to Formularz na dole strony, użytkownik wprowadza e-mail, który następnie zostaje wysłany do bazy danych. Następnie automatyczne rozszerzenie  
 wysyła e-mail typu "dziękuję za subskrypcję na nasz email-list".
+
+
+
+Projekt jest już zakończony i wszystko co napisałem powyżej, zostało zrobione))
