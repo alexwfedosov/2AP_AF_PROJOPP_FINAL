@@ -1,4 +1,7 @@
 # 2AP_AF_PROJOPP_FINAL
+
+Projekt jest również dostępny pod tym linkiem
+https://core-products.netlify.app/
 Wersja 1.0 projektu
 
 1.Dokumentacja Projektu: Sklep z Produktami Apple
