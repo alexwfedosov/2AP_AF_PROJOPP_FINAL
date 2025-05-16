@@ -1,3 +1,6 @@
+Projekt jest dostepny również pod tym linkiem:
+https://core-products.netlify.app/
+
 Najprawdopodobniej (99%) będzie to strona internetowa (najprawdopodobniej 1-3 podstrony) 
 dla określonego produktu (takiego jak nowy iphone lub inne popularne rzeczy). Będzie to 
 bardzo dobrze wyglądająca i dobrze zaprojektowana responsywna strona sprzedaży produktu. 
